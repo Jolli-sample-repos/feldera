@@ -1,0 +1,208 @@
+{
+  "$schema": "https://jolli.ai/schemas/site-config.json",
+  "title": "Docs",
+  "description": "Docs documentation",
+  "nav": [],
+  "theme": {
+    "pack": "forge"
+  },
+  "sidebar": {
+    "/": {
+      "what-is-feldera": "What Is Feldera",
+      "architecture": "Architecture",
+      "get-started": "Install Feldera",
+      "tutorials": "Guides",
+      "interface": "Feldera Interface",
+      "pipelines": "Pipelines",
+      "operations": "Feldera Operations",
+      "literature": "Literature",
+      "changelog": "Changelog"
+    },
+    "/architecture": {
+      "enterprise": "Enterprise"
+    },
+    "/get-started": {
+      "docker": "Docker",
+      "sandbox": "Sandbox",
+      "enterprise": "Feldera Enterprise"
+    },
+    "/get-started/enterprise": {
+      "quickstart": "Quickstart",
+      "helm-guide": "Helm Guide",
+      "kubernetes-guides": "Kubernetes guides",
+      "authentication": "Authentication",
+      "https": "Https",
+      "parallel-compilation": "Parallel Compilation"
+    },
+    "/get-started/enterprise/kubernetes-guides": {
+      "k3d": "K3d",
+      "eks": "EKS"
+    },
+    "/get-started/enterprise/kubernetes-guides/eks": {
+      "cluster": "Cluster",
+      "ingress": "Ingress"
+    },
+    "/get-started/enterprise/authentication": {
+      "aws-cognito": "Aws Cognito",
+      "okta-sso": "Okta Sso"
+    },
+    "/tutorials": {
+      "basics": "Feldera Basics",
+      "batch": "Accelerating Batch Analytics",
+      "fraud_detection": "Real-time Fraud Detection",
+      "real_time_apps": "Real-time Web Applications",
+      "time-series": "Time Series",
+      "fine_grained_authorization": "Fine-Grained Authorization",
+      "otel": "OpenTelemetry Analysis",
+      "rest_api": "Rest API",
+      "monitoring": "Monitoring"
+    },
+    "/tutorials/basics": {
+      "part1": "Part1",
+      "part2": "Part2",
+      "part3": "Part3",
+      "part4": "Part4"
+    },
+    "/tutorials/batch": {
+      "part1": "Part1",
+      "part2": "Part2",
+      "part3": "Part3",
+      "part4": "Part4"
+    },
+    "/tutorials/real_time_apps": {
+      "part1": "Part1",
+      "part2": "Part2",
+      "part3": "Part3"
+    },
+    "/tutorials/fine_grained_authorization": {
+      "static": "Static",
+      "dynamic": "Dynamic"
+    },
+    "/tutorials/otel": {
+      "representing_otel_data": "Representing Otel Data",
+      "preprocessing": "Preprocessing",
+      "insights": "Insights",
+      "grafana": "Grafana"
+    },
+    "/tutorials/rest_api": {
+      "cluster-monitoring": "Cluster Monitoring"
+    },
+    "/interface": {
+      "web-console": "Web Console",
+      "cli": "Cli",
+      "python-sdk": {
+        "title": "Python SDK",
+        "href": "/python/"
+      },
+      "rest-api": {
+        "title": "REST API",
+        "href": "/api"
+      }
+    },
+    "/pipelines": {
+      "sql": "Feldera SQL",
+      "connectors": "Connectors",
+      "formats": "Formats",
+      "lifecycle": "Reference: Pipeline Lifecycle",
+      "configuration": "Settings",
+      "fault-tolerance": "Fault Tolerance",
+      "modifying": "Modifying a Pipeline",
+      "checkpoint-sync": "Checkpoint Sync",
+      "transactions": "Transactions",
+      "latency": "Latency",
+      "sidecar": "Sidecar Containers"
+    },
+    "/pipelines/sql": {
+      "grammar": "Grammar",
+      "identifiers": "Identifiers",
+      "types": "Types",
+      "aggregates": "Aggregates",
+      "array": "Array",
+      "binary": "Binary",
+      "boolean": "Boolean",
+      "casts": "Casts",
+      "comparisons": "Comparisons",
+      "datetime": "Datetime",
+      "decimal": "Decimal",
+      "float": "Float",
+      "function-index": "Function Index",
+      "integer": "Integer",
+      "json": "Json",
+      "map": "Map",
+      "operators": "Operators",
+      "string": "String",
+      "table": "Table",
+      "uuid": "Uuid",
+      "materialized": "Materialized",
+      "recursion": "Recursion",
+      "ad-hoc": "Ad Hoc",
+      "streaming": "Streaming",
+      "system": "System",
+      "udf": "Udf"
+    },
+    "/pipelines/connectors": {
+      "unique_keys": "Unique Keys",
+      "orchestration": "Orchestration",
+      "completion-tokens": "Completion Tokens",
+      "secret-references": "Secret References",
+      "sources": "Input",
+      "sinks": "Output"
+    },
+    "/pipelines/connectors/sources": {
+      "http": "HTTP",
+      "http-get": "HTTP GET (URL)",
+      "delta": "Delta Lake",
+      "iceberg": "Apache Iceberg",
+      "kafka": "Kafka",
+      "pubsub": "Google Pub/Sub",
+      "nats": "NATS",
+      "debezium": "Debezium",
+      "postgresql": "PostgreSQL",
+      "s3": "AWS S3",
+      "datagen": "Data Generator",
+      "file": "File"
+    },
+    "/pipelines/connectors/sinks": {
+      "http": "HTTP",
+      "delta": "Delta Lake",
+      "kafka": "Kafka",
+      "confluent-jdbc": "Confluent JDBC Connector",
+      "redis": "Redis",
+      "postgresql": "PostgreSQL",
+      "snowflake": "Snowflake (experimental)",
+      "file": "File",
+      "iceberg": "Iceberg (experimental)"
+    },
+    "/pipelines/formats": {
+      "json": "Json",
+      "avro": "Avro",
+      "parquet": "Parquet",
+      "csv": "Csv",
+      "raw": "Raw"
+    },
+    "/operations": {
+      "guide": "Guide",
+      "memory": "Memory",
+      "metrics": "Metrics",
+      "json-logging": "Json Logging",
+      "visualizing-profiles": "Visualizing Profiles"
+    },
+    "/literature": {
+      "papers": "Papers",
+      "videos": "Videos",
+      "blog": "Blog"
+    }
+  },
+  "pathMappings": {
+    "use_cases/batch": "tutorials/batch",
+    "use_cases/fraud_detection": "tutorials/fraud_detection",
+    "use_cases/real_time_apps": "tutorials/real_time_apps",
+    "use_cases/fine_grained_authorization": "tutorials/fine_grained_authorization",
+    "use_cases/otel": "tutorials/otel",
+    "sql": "pipelines/sql",
+    "connectors": "pipelines/connectors",
+    "connectors/sources": "pipelines/connectors/sources",
+    "connectors/sinks": "pipelines/connectors/sinks",
+    "formats": "pipelines/formats"
+  }
+}
