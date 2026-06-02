@@ -259,7 +259,7 @@
 			"page": "Changelog",
 			"root": "/changelog",
 			"content": [
-				{ "article": "Changelog", "href": "/changelog", "source": "changelog.md" }
+				{ "article": "Changelog", "href": "/changelog" }
 			]
 		}
 	],
