@@ -40,7 +40,6 @@
 					"articles": [
 						{ "article": "Quickstart", "href": "enterprise/quickstart" },
 						{ "article": "Helm guide", "href": "enterprise/helm-guide" },
-						{ "article": "Helm Chart Reference", "href": "enterprise/helm-chart-reference" },
 						{
 							"article": "Kubernetes guides",
 							"href": "enterprise/kubernetes-guides",
@@ -149,7 +148,6 @@
 				{ "article": "String", "href": "string" },
 				{ "article": "Table Functions", "href": "table" },
 				{ "article": "UUID", "href": "uuid" },
-				{ "article": "Unsupported", "href": "unsupported-operations" },
 				{ "article": "Materialized Tables/Views", "href": "materialized" },
 				{ "article": "Mutually-Recursive Queries", "href": "recursion" },
 				{ "article": "Ad-hoc SQL Queries", "href": "ad-hoc" },
@@ -216,7 +214,6 @@
 				{
 					"group": "Fault Tolerance",
 					"content": [
-						{ "article": "Overview", "href": "fault-tolerance-overview" },
 						{ "article": "Checkpoints", "href": "fault-tolerance" },
 						{ "article": "Checkpoint Sync", "href": "checkpoint-sync" }
 					]
