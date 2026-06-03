@@ -6,14 +6,6 @@ sidebar_label: Enterprise Edition
 Feldera Enterprise brings all the power of our incremental compute platform into your own Kubernetes cluster (cloud or on-prem). It’s designed for production use by teams that need resource efficiency, isolation and resilience for their Pipelines. Below is a high-level summary of the architecture and the extra features.
 
 
-<div style={{ textAlign: 'center' }}>
-<img
-  src="/img/enterprise-architecture.png"
-  alt="Feldera Enterprise Architecture"
-  style={{ width: '70%', maxWidth: '800px' }}
-/>
-</div>
-
 
 ### One Pipeline = One Pod
   Each Pipeline runs in its own Kubernetes Pod, resource- and fault-isolated from other pipelines and the control plane. Each Pipeline can use a **Persistent Volume** or **S3 bucket** for its storage.
