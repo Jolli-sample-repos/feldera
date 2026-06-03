@@ -10,11 +10,8 @@
 	},
 	"theme": {
 		"pack": "forge",
-		"logoUrl": "/img/logo-color-dark.svg",
-		"logoUrlDark": "/img/logo-color-light.svg",
 		"logoText": "Feldera",
 		"logoDisplay": "image",
-		"favicon": "/img/favicon.ico",
 		"primaryColor": "#C02BEE",
 		"defaultTheme": "light",
 		"fontFamily": "inter"
